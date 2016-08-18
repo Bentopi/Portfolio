@@ -1,14 +1,10 @@
 
 //= require jquery
-
 //= require jquery_ujs
-
-
-//= require bootstrap-sprockets
-
 //= require turbolinks
 //= require bootstrap/js/bootstrap
 //= require bootstrap/js/bootstrap.min
+//= require bootstrap/js/npm
 
 //= require contact_form/contact
 //= require js/wow.min
@@ -31,7 +27,7 @@
 
 
 //= require js/custom
-//= require bootstrap/js/npm
+
 
 
 //= require flexslider/jquery.flexslider
