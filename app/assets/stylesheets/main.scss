@@ -1,7 +1,27 @@
 .parallax-inner .parallax-content h2 {
-  font-weight: 175;
-  color: #ecf0f1;
+  font-weight: 100;
+  color: #3498db;
+  font-size: 2.2em;
 }
 body {
-  color: #ecf0f1; 
+  color: #ecf0f1;
+}
+.folio-box {
+  margin: 10px;
+}
+
+@media only screen and (min-width : 768px) {
+  .parallax-inner .parallax-content h2 {
+    font-size: 5em;
+  }
+    }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
 }

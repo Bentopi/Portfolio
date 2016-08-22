@@ -22,7 +22,7 @@ a {
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  color: #32b181; }
+  color: #3498db; }
   a:hover {
     color: #aeaeae; }
 
@@ -42,7 +42,7 @@ button:focus {
   outline: 0 !important; }
 
 .color_text {
-  color: #32b181; }
+  color: #3498db; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
@@ -54,7 +54,7 @@ blockquote {
   blockquote h5 {
     margin-top: 10px;
     font-weight: 600;
-    color: #32b181; }
+    color: #3498db; }
 
 /**spaces**/
 .space10 {
@@ -106,7 +106,7 @@ hr {
 .separator {
   width: 60px;
   height: 3px;
-  background: #32b181;
+  background: #3498db;
   margin: 40px auto;
   display: block; }
 
@@ -134,7 +134,7 @@ hr {
   background-color: #333;
   height: 25px; }
   .progress .progress-bar {
-    background: #32b181;
+    background: #3498db;
     line-height: 25px;
     font-size: 15px; }
 
@@ -160,7 +160,7 @@ Buttons style
   padding: 12px 25px; }
 
 .btn-link {
-  color: #32b181; }
+  color: #3498db; }
   .btn-link:hover {
     color: #999; }
 
@@ -168,11 +168,11 @@ Buttons style
   background-color: #eee;
   color: #333; }
   .btn-default:hover {
-    background-color: #32b181;
+    background-color: #3498db;
     color: #fff; }
 
 .btn-skin {
-  background-color: #32b181;
+  background-color: #3498db;
   color: #fff; }
   .btn-skin:hover {
     background-color: #333;
@@ -182,7 +182,7 @@ Buttons style
   background-color: #333;
   color: #fff; }
   .btn-dark:hover {
-    background-color: #32b181;
+    background-color: #3498db;
     color: #fff; }
 
 .btn-white {
@@ -201,12 +201,12 @@ Buttons style
     background-color: #333; }
 
 .btn-border-skin {
-  border: 2px solid #32b181;
+  border: 2px solid #3498db;
   background-color: transparent;
-  color: #32b181; }
+  color: #3498db; }
   .btn-border-skin:hover {
     color: #fff;
-    background-color: #32b181; }
+    background-color: #3498db; }
 
 .btn-border-white {
   border: 2px solid #fff;
@@ -243,7 +243,7 @@ Buttons style
       background-color: transparent; }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-  color: #32b181;
+  color: #3498db;
   background-color: transparent; }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
@@ -310,14 +310,14 @@ Buttons style
     font-size: 36px;
     line-height: 45px; }
     .about-section h1 span {
-      color: #32b181;
+      color: #3498db;
       font-weight: 700; }
 
 /**portfolio section**/
 .portfolio {
   padding: 100px 0;
   padding-bottom: 0px;
-  background: #32b181; }
+  background: #3498db; }
   .portfolio .separator {
     background-color: #fff; }
   .portfolio .col-sm-4 {
@@ -379,7 +379,7 @@ Buttons style
   border-radius: 50%;
   margin-right: 20px;
   font-size: 35px;
-  color: #32b181; }
+  color: #3498db; }
 .service-list .content {
   overflow: hidden; }
   .service-list .content h3 {
@@ -459,7 +459,7 @@ Buttons style
     font-size: 20px; }
 
 .footer {
-  background: #32b181;
+  background: #3498db;
   padding: 10px 0;
   color: #fff; }
 
