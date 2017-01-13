@@ -1,13 +1,18 @@
 .parallax-inner .parallax-content h2 {
-  font-weight: 100;
-  color: #3498db;
-  font-size: 2.2em;
+  color: #ffffff;
+}
+.parallax-inner .parallax-content h1 {
+  color: #ffffff;
 }
 body {
   color: #ecf0f1;
 }
 .folio-box {
   margin: 10px;
+}
+
+.intro-content {
+  width: 70%;
 }
 
 @media only screen and (min-width : 768px) {
