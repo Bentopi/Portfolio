@@ -1,20 +1,11 @@
-/* 
+/*
  Project - Learn Education Template
  */
 
 $(document).ready(function () {
 
-    //animated scroll menu
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        if (scroll > 0) {
-            $('nav').addClass('scrolled');
-        }
-        if (scroll <= 0) {
-            $('nav').removeClass('scrolled');
-        }
-    });
-    
+
+
     //Auto Close Responsive Navbar on Click
     function close_toggle() {
         if ($(window).width() <= 768) {
@@ -65,7 +56,7 @@ $(document).ready(function () {
         controlNav: true,
         directionNav: false
     });
-    
+
   //wow animations
     var wow = new WOW(
             {
@@ -75,5 +66,5 @@ $(document).ready(function () {
                 mobile: false        // trigger animations on mobile devices (true is default)
             }
     );
-    wow.init();   
+    wow.init();
 });

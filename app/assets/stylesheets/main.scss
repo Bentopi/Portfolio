@@ -1,11 +1,23 @@
-.parallax-inner .parallax-content h2 {
-  color: #ffffff;
-}
-.parallax-inner .parallax-content h1 {
-  color: #ffffff;
-}
+@import url('https://fonts.googleapis.com/css?family=Varela');
+
 body {
+  font-family: 'Varela', sans-serif;
+  background-color: #FFFFFF;
   color: #ecf0f1;
+
+}
+.about-section {
+  background-color: lighten(#ecf0f1, 5%);
+  color: #777777;
+  padding-bottom: 50px;
+}
+.portfolio {
+  background-color: lighten(#ecf0f1, 5%);
+  padding-top: 0px;
+  color: #777777;
+}
+.my-name {
+  color: #222222;
 }
 .folio-box {
   margin: 10px;
@@ -15,11 +27,74 @@ body {
   width: 70%;
 }
 
-@media only screen and (min-width : 768px) {
-  .parallax-inner .parallax-content h2 {
-    font-size: 5em;
-  }
-    }
+.progress{
+  height: 30px;
+}
+.progress .progress-bar{
+  border: 2px solid #777777;
+  border-radius: 0px;
+  color: #222222;
+  background: #FFFFFF;
+  height: 30px;
+}
+.separator {
+  width: 30%;
+  color: #337AB6;
+}
+.portfolio .separator {
+    background-color: #337AB6;
+}
+.portfolio-github {
+  padding-bottom: 25px;
+}
+.portfolio-image {
+  width: 100%;
+}
+.img-responsive {
+  margin: 0 auto;
+  display: block;
+}
+
+.portfolio-container {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #337AB6;
+  margin: 30px;
+}
+
+.intro-text {
+  font-size: 1.3em;
+}
+.footer {
+  background-color: #222222;
+}
+
+@media (min-width:768px) {
+/* centered navigation */
+ .nav.navbar-nav {
+     float: left;
+ }
+ .nav.navbar-nav {
+     clear: left;
+     float: left;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: 50%;
+     text-align: center;
+ }
+ .nav.navbar-nav > li {
+     position: relative;
+     right: 50%;
+ }
+ .nav.navbar-nav li {
+    text-align: left
+ }
+ #navbar .navbar-collapse .collapse {
+   height: 50px;
+ }
+}
+
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
